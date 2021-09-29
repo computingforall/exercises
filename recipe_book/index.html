@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recipe Book</title>
+
+    <style>
+        * {margin:0;padding:0;box-sizing: border-box;}
+
+        html, body {
+            width:100vw;
+            height:100vh;
+            background-color:#333;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width:100%;
+            height:150px;
+            object-fit: cover;
+        }
+
+        ul, ol {
+            margin-left:1.2em;
+        }
+
+        div.container {
+            min-width:1200px;
+            min-height:800px;
+            background-image: url(https://images.unsplash.com/photo-1622701361344-c1df43ca29ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+            background-size: cover;
+            background-position: 0% 80%;
+            position: relative;
+            
+        }
+
+        div.container > div {
+            position:absolute;
+        }
+
+        #left-page {
+            width:230px;
+            height:400px;
+            left:300px;
+            top:300px;
+            transform: rotateZ(-19deg);
+        }
+
+        #right-page {
+            width:270px;
+            height:400px;
+            left:540px;
+            top:210px;
+            transform: rotateZ(-19deg);
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div id="left-page">
+            <!-- PUT LEFT PAGE CONTENT HERE -->
+            
+        </div>
+        <div id="right-page">
+            <!-- PUT RIGHT PAGE CONTENT HERE -->
+
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
